@@ -1,7 +1,7 @@
 // var hoisted . (Bad practice)
 // let and const hoisted but in temporal dead zone.
 
-var name = "Utsho";
+var name = "asif";
 
 let age = 25;
 age = 30; //reassign
@@ -27,7 +27,7 @@ function myFunc() {
   let test4 = "Test 4";
 }
 myFunc();
-// console.log(test4);
+// console.log(test3);
 
 // Hoisting
 console.log(test5);
